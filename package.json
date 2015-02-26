@@ -1,0 +1,44 @@
+{
+  "name": "growsimple",
+  "version": "0.0.1",
+  "description": "",
+  "main": "js/app.js",
+  "dependencies": {
+    "alt": "^0.13.5",
+    "body-parser": "^1.12.0",
+    "es6-loader": "^0.2.0",
+    "firebase": "^2.2.0",
+    "flux": "^2.0.1",
+    "imports-loader": "^0.6.3",
+    "jquery": "^2.1.3",
+    "jsx-loader": "^0.12.2",
+    "loader-utils": "^0.2.6",
+    "react": "^0.12.2",
+    "webpack": "^1.5.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "webpack -w --config webpack.hot.config.js"
+  },
+  "authors": [
+    "Blaine Hatab <jbhatab@gmail.com>"
+  ],
+  "jest": {
+    "rootDir": "./js"
+  },
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.3",
+    "bootstrap-sass-loader": "0.0.10",
+    "css-loader": "^0.9.1",
+    "envify": "^3.2.0",
+    "expose-loader": "^0.6.0",
+    "express": "^4.11.2",
+    "extract-text-webpack-plugin": "^0.3.8",
+    "file-loader": "^0.8.1",
+    "react-hot-loader": "^1.1.5",
+    "sass-loader": "^0.4.0-beta.1",
+    "style-loader": "^0.8.3",
+    "url-loader": "^0.5.5",
+    "webpack-dev-server": "^1.7.0"
+  }
+}
